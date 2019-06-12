@@ -9,3 +9,6 @@
 @import url(../js/bluebnav/jquery-1.4.2.min.js);
 @import url(../js/swiper-3.4.2/dist/css/swiper.css);
 @import url(../js/prefixfree.min.js);
+
+@import url(../js/responsive-sidebar-navigation/css/style.css);
+@import url(../js/responsive-sidebar-navigation/js/modernizr.js);

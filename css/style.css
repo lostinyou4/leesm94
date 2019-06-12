@@ -1015,7 +1015,7 @@ background:url(../images/common/footer_bg.jpg) repeat-x center center;}
 	margin-right:10px;
 }
 }
-@media all and (min-width:1280px) and (max-width:1399px){
+@media all and and (max-width:1399px){
 	#sub1_content1 .inner{width:1200px;}
 	#sub1_content1 .inner div.icon dl{width:11%; border:0px solid black;}
 	#sub1_content1 .inner div.icon dl dd a img{width:100%;}
@@ -1077,7 +1077,7 @@ background:url(../images/common/footer_bg.jpg) repeat-x center center;}
 @media all and (min-width:1400px) and (max-width:1599px){
 	#sub1_content2 .inner{width:1200px;}
 }
-@media all and (min-width:1280px) and (max-width:1399px){
+@media all and (max-width:1399px){
 	#sub1_content2 .inner{width:1200px;}
 }
 
@@ -1098,7 +1098,7 @@ background:url(../images/common/footer_bg.jpg) repeat-x center center;}
 		padding-left:50px;
 	}
 }
-@media all and (min-width:1280px) and (max-width:1399px){
+@media all and (max-width:1399px){
 	#sub1_content3 .inner{width:1200px;}
 	#sub1_content3 .inner dl.box dd:last-child{
 		width:350px;
@@ -1121,7 +1121,7 @@ position:absolute; right:0; top:230px;
 	#sub1_content4 .inner{width:1200px;}
 
 }
-@media all and (min-width:1280px) and (max-width:1399px){
+@media all and (max-width:1399px){
 	#sub1_content4 .inner{width:1200px;}
 
 }
@@ -1139,7 +1139,7 @@ margin:0 5px;}
 	#sub1_content5 .inner{width:1200px;}
 
 }
-@media all and (min-width:1280px) and (max-width:1399px){
+@media all and (max-width:1399px){
 	#sub1_content5 .inner{width:1200px;}
 
 }
