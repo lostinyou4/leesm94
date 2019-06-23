@@ -119,6 +119,8 @@
   .inner{
     width:1024px;
     margin:0 auto;
+    position: relative;
+    padding-bottom: 105px;
 
     h2{
       font-family: @nanumb;
@@ -127,11 +129,77 @@
       padding-top: 130px;
       padding-bottom: 35px;
     }
-    p{
+    .introduce{
       font-family: @nanumr;
       font-size:20px;
       color: #666666;
+      text-align: center;
+      padding-bottom: 82px;
+    }
+    .bunny{
+      position: absolute;
+      top: 240px;
+      left: -299px;
+    }
+    video{
+      display: block;
+      margin: 0 auto;
     }
 
+  }
+}
+
+#sub3_content3{
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  .inner{
+    width:1024px;
+    margin:0 auto;
+    padding-bottom: 235px;
+    height:auto;
+    overflow: hidden;
+    
+    dl{
+      padding-top: 135px;
+      width:33.3%;
+      float: left;
+
+      dd:nth-child(1){
+        width:169px;
+        height: 163px;
+        margin: 0 auto;
+      }
+      dt:nth-child(2){
+        font-style: @nanumb;
+        font-size:24px;
+        text-align:center;
+        padding-top: 37px;
+        padding-bottom: 20px;
+      }
+      dd:nth-child(3){
+        width:290px;
+        text-align:justify;
+        margin:0 auto;
+        font-style: @nanumr;
+        font-size:13px;
+        line-height: 1.8;
+      }
+    }
+    dl:nth-child(1){
+      dd:nth-child(1){
+        background:url(../images/sub3/feature1.png) no-repeat center 0;
+      }
+    }
+    dl:nth-child(2){
+      dd:nth-child(1){
+        background:url(../images/sub3/feature2.png) no-repeat center 0;
+      }
+    }
+    dl:nth-child(3){
+      dd:nth-child(1){
+        background:url(../images/sub3/feature3.png) no-repeat center 0;
+      }
+    }
   }
 }
