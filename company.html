@@ -7,6 +7,9 @@
 <link rel="stylesheet" type="text/css" href="./css/import.css">
 <link rel="stylesheet/less" type="text/css" href="./css/style.less">
 <script src="./js/less.js-master/dist/less.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="./js/kissui.scrollanim-master/example/css/custom.css">
+<link rel="stylesheet" href="./js/kissui.scrollanim-master/build/scrollanim.min.css"><!-- kissui -->
 <!--[if IE]>
 <script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
 <![endif]-->
@@ -167,11 +170,11 @@ $("ul li").hover(function() { //Hover over event on list item
 		<div class="history">
 			<dl>
 				<dt class="year">1920년대</dt>
-				<dd class="left"><img src="./images/sub3/dl1.jpg" alt="shake" /></dd>
+				<dd class="left" data-kui-anim="fadeIn"><img src="./images/sub3/dl1.jpg" alt="shake" /></dd>
 				<dd class="right text">
 					<dl>
-						<dt class="subject">듀라셀의 시작</dt>
-						<dd class="paragraph">
+						<dt class="subject" data-kui-anim="fadeInDown">듀라셀의 시작</dt>
+						<dd class="paragraph" data-kui-anim="fadeInDown">
 							듀라셀은 1920년대 초에 발명가 사뮤엘 루벤과 텅스텐 필라멘트 제조업자 필립 로저 말로리의 만남에서 시작되었습니다. 루벤은 실험에 필요한 장비를 구하는 과정에서 P.R. 말로리 컴퍼니(Mallory Company)를 방문하게 됩니다. 루벤과 말로리는 루벤의 발명가로서의 천재성과 말로리의 제조 기술을 합치는 것이 좋다고 판단하였습니다. 이후 두 사람의 동업 관계는 말로리가 사망하는 1975년까지 지속되었고, 이는 듀라셀 인터네셔널(Duracell International)의 기반을 형성했습니다.
 						</dd>
 					</dl>
@@ -181,22 +184,22 @@ $("ul li").hover(function() { //Hover over event on list item
 				<dt class="year">1960년대</dt>
 				<dd class="left text">
 					<dl>
-						<dt class="subject">최초로 달에 간 건전지, 듀라셀</dt>
-						<dd class="paragraph">
+						<dt class="subject" data-kui-anim="fadeInDown">최초로 달에 간 건전지, 듀라셀</dt>
+						<dd class="paragraph" data-kui-anim="fadeInDown">
 							듀라셀의 첫 알카라인 건전지는 말로리 브랜드로 출시되었습니다. 건전지의 초기 모델인 이 제품은 에너지 소모가 많고 플래시가 내장된 Kodak의 인스터매틱(Instamatic) 카메라를 위해 특별히 설계 됐습니다. 1965년에 듀라셀 브랜드가 소개되었고, 소비자 지향적 프로그램과 제품에 초점을 맞추었습니다. 테이프와 녹음기, 워키토키와 같은 휴대용 기기 제조사인 Afga, Kodak, Polaroid에 직접적인 건전지를 공급하기도 했습니다. 그리고 1969년, 듀라셀은 아폴로 11호 계획에 참여하여 달에 간 첫 번째 건전지가 되었습니다.
 						</dd>
 					</dl>
 				</dd>
-				<dd class="right"><img src="./images/sub3/dl2.jpg" alt="space" /></dd>
+				<dd class="right" data-kui-anim="fadeIn"><img src="./images/sub3/dl2.jpg" alt="space" /></dd>
 			</dl>
 			<dl>
 				<dt class="year">1970년대</dt>
 				<dd class="center"><img src="./images/sub3/dl3.jpg" alt="bunny_yellow" /></dd>
-				<dd class="left"><img src="./images/sub3/dl4.jpg" alt="cell" /></dd>
+				<dd class="left" data-kui-anim="fadeInLeft"><img src="./images/sub3/dl4.jpg" alt="cell" /></dd>
 				<dd class="right text">
 					<dl>
-						<dt class="subject">아이콘의 탄생</dt></dt>
-						<dd class="paragraph">
+						<dt class="subject" data-kui-anim="fadeInRight">아이콘의 탄생</dt></dt>
+						<dd class="paragraph" data-kui-anim="fadeInRight">
 							듀라셀의 첫 알카라인 건전지는 말로리 브랜드로 출시되었습니다. 건전지의 초기 모델인 이 제품은 에너지 소모가 많고 플래시가 내장된 Kodak의 인스터매틱(Instamatic) 카메라를 위해 특별히 설계 됐습니다. 1965년에 듀라셀 브랜드가 소개되었고, 소비자 지향적 프로그램과 제품에 초점을 맞추었습니다. 테이프와 녹음기, 워키토키와 같은 휴대용 기기 제조사인 Afga, Kodak, Polaroid에 직접적인 건전지를 공급하기도 했습니다. 그리고 1969년, 듀라셀은 아폴로 11호 계획에 참여하여 달에 간 첫 번째 건전지가 되었습니다.
 						</dd>
 					</dl>
@@ -206,16 +209,18 @@ $("ul li").hover(function() { //Hover over event on list item
 				<dt class="year">2016년</dt>
 				<dd class="left text">
 					<dl>
-						<dt class="subject">버크셔 헤서웨이와 합병</dt></dt>
-						<dd class="paragraph">
+						<dt class="subject" data-kui-anim="fadeInDown">버크셔 헤서웨이와 합병</dt></dt>
+						<dd class="paragraph" data-kui-anim="fadeInDown">
 							2016년, 버크셔 해서웨이 (Berkshire Hathaway)는 듀라셀을 인수했습니다. 듀라셀은 앞으로도 명실상부한 전 세계 1위 건전지 회사 자리를 지키기 위해 지속 가능한 성장, 업계를 리드하는 혁신, 고객을 위한 장기적 가치 창출에 주력할 것 입니다.
 						</dd>
 					</dl>
 				</dd>
-				<dd class="right"><img src="./images/sub3/dl5.jpg" alt="factory" /></dd>
+				<dd class="right" data-kui-anim="fadeIn"><img src="./images/sub3/dl5.jpg" alt="factory" /></dd>
 			</dl>
 		</div>
 	</div><!-- //inner -->
+
+	<script src='./js/kissui.scrollanim-master/build/scrollanim.js'></script>
 </section>
 
 <!-- 바니소개 -->
