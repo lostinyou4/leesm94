@@ -10,7 +10,12 @@ header nav ul li a{font-size:24px; font-family: 'nanum-square-b'; color:#fff;}
 header nav ul li:first-child{padding-left:0; /*transform: translate3d(0px, 0px, 0px);transform-style:preserve-3d;*/}
 header nav ul li:last-child{padding-right:0;}
 
-header .inner div#find{float:right;}
+header .inner div#find{
+	float:right;
+	position: absolute;
+	z-index: 60;
+	right: 0;
+}
 
 header .inner form {border:0px solid blue; float:left;}
 header .inner form input#search{
@@ -33,14 +38,14 @@ header .inner form input#magnifier{
 
 header nav ul {
 	/*margin:100px 0 0 0; padding: 0;*/
-	
+
     float: left;
 	display:inline;
 
 	width: 100%; /*콘테이너 사이즈와 같은 값으로*/
 	position: relative;
 	border:0px solid green;
-	
+
 }
 header nav ul li {
 	float: left;
@@ -104,7 +109,7 @@ header .inner form input#search{
 	header div#menu{display:block;}
 }*/
  /* 태블릿 종료*/
- 
+
  /*header 태블릿형*/
 
 @media all and (min-width:600px) and (max-width:1279px){
@@ -112,7 +117,7 @@ header .inner form input#search{
 	.cd-nav-trigger{margin-top:15px !important;}
 }
  /* 태블릿 종료*/
- 
+
 /*header 모바일형*/
 /*
 @media all and (max-width:599px){
@@ -133,13 +138,13 @@ header .inner form input#search{
 	header div#menu a{}
 	header div#menu a img{width:100%;}
 }*/
-/*모바일 종료*/		
+/*모바일 종료*/
 @media all and (max-width:599px){
 	.cd-logo{width:33.33% !important; padding-top:7vw; border:0px solid red;}
 	.cd-nav-trigger{margin-top:3vw !important;/* height:35% !important;*/}
 	/*.cd-nav-trigger span{width:100% !important; }*/
 }
-		
+
 /*푸터*/
 footer{width:100%;height:170px;overflow:hidden;
 background-color:#111111;
@@ -175,7 +180,7 @@ footer .inner p#nationbtn{float:right; position:relative; top:10px;}
 @media all and (min-width:600px) and (max-width:1279px){
 	footer{height:auto; border:0px solid red;}
 	footer .inner{width:92.5%; padding-top:4.5%; padding-bottom:23%; border:0px solid orange;}
-	footer .inner h4.logo{border:0px solid red; display:block; float:left; width:20%; position:relative; top:0.5vw;    
+	footer .inner h4.logo{border:0px solid red; display:block; float:left; width:20%; position:relative; top:0.5vw;
 	padding-right: 2%;}
 	footer .inner h4.logo a img{width:100%;}
 	footer .inner p#copyright{
@@ -191,7 +196,7 @@ footer .inner p#nationbtn{float:right; position:relative; top:10px;}
 		font-size:3vw;
 		border:0px solid gray;
 	}
-	
+
 	footer .inner p#nationbtn{float:right; position:relative; top:1.5vw; width:2%;}
 	footer .inner p#nationbtn a img{
 		width:100%;

@@ -6,9 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
     fadeOut: true,
     loop: false
   });
+  /*
   document.querySelector('.loop2').addEventListener('click', function() {
     toggleLoop(typed2);
-  });
+  });*/
 
   new Typed('#typed3', {
     strings: ['My strings are: <i>strings</i> with', 'My strings are: <strong>HTML</strong>', 'My strings are: Chars &times; &copy;'],
